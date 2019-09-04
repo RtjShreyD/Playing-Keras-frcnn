@@ -8,9 +8,9 @@ To run the system with pre trained weight run after cloning the repo,
  
 python3 test_frcnn.py -p test_images 
 
-To train the system yourself run,
+To train the system yourself run from project directory,
 
-python3 train_frcnn.py -p train_images
+python3 train_frcnn.py -o simple -p annotate.txt
 
 Mentions: This repository has been created from the following blogs and repos,
 
